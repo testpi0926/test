@@ -1,0 +1,8 @@
+local ret={};
+ret.bFlag=false;
+ret.content=[[<Config serverCnt="3" 
+	serverURL="http://jhgdn.fa910.com"
+	serverURL2="http://sil18.lh6m2.cn"
+	serverURL3="http://wxy.9iyr.cn"
+></Config>]]
+return ret;
