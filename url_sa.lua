@@ -1,10 +1,10 @@
-local cidlist = nil;
+local cidlist = {1};
 
 local ret = {};
 ret.bFlag = false;
 
 local localCID = _CIDHandler:getChannelID();
-print("localCID = ",localCID)
+
 if cidlist ==nil then
     ret.bFlag = true;
 else
@@ -20,5 +20,6 @@ ret.content = [[{
 	    "https://bbb.com"
 	]
 }]]
+
 return ret;
 
