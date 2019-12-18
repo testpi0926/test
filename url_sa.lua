@@ -1,4 +1,4 @@
-local cidlist = {666888};
+local cidlist = nil;
 
 local ret = {};
 ret.bFlag = false;
