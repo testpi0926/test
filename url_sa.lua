@@ -4,6 +4,7 @@ local ret = {};
 ret.bFlag = false;
 
 local localCID = _CIDHandler:getChannelID();
+print("localCID = ",localCID)
 if cidlist ==nil then
     ret.bFlag = true;
 else
