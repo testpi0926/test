@@ -17,7 +17,8 @@ end
 
 ret.content = [[{
 	"serverlist":[
-	    "https://bbb.com"
+	    "https://afs2.leedemo1.club",
+        "https://absi2.senmst.com"
 	]
 }]]
 
