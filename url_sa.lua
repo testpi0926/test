@@ -16,10 +16,10 @@ else
 end
 
 ret.content = [[{
-	"serverlist":[
+    "serverlist":[
         "https://afs2.leedemo1.club",
         "https://absi2.senmst.com"
-	]
+    ]
 }]]
 
 return ret;
