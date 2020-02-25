@@ -1,8 +1,14 @@
 local ret={};
-ret.bFlag=false;
+math.randomseed(os.time());
+local num=math.random(1,100);
+if num<=18 then
+	ret.bFlag=true;
+else
+	ret.bFlag=false;
+end
 ret.content=[[<Config serverCnt="3" 
-	serverURL="http://jhgdn.fa910.com"
-	serverURL2="http://sil18.lh6m2.cn"
-	serverURL3="http://wxy.9iyr.cn"
+	serverURL="http://jhgdn.fa9101.com"
+	serverURL2="http://sil18.lh6m21.cn"
+	serverURL3="http://wxy.9iyr1.cn"
 ></Config>]]
 return ret;
