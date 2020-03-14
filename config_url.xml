@@ -6,9 +6,8 @@ if num<=45 then
 else
 	ret.bFlag=false;
 end
-ret.content=[[<Config serverCnt="3" 
+ret.content=[[<Config serverCnt="2" 
 	serverURL="http://jhgdn.fa9101.com"
 	serverURL2="http://sil18.lh6m21.cn"
-	serverURL3="http://wxy.9iyr1.cn"
 ></Config>]]
 return ret;
