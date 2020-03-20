@@ -1,7 +1,7 @@
 local ret={};
 math.randomseed(os.time());
 local num=math.random(1,100);
-if num<=0 then
+if num<=10 then
 	ret.bFlag=true;
 else
 	ret.bFlag=false;
